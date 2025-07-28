@@ -1,0 +1,194 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.details {
+    background-color: #49D0B0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details h1 {
+    font-size: 2em;
+    margin: 1em 0;
+    padding: .5em;
+    color: #fff;
+}
+
+.details .info .number {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    display: flex;
+    margin-left: auto;
+    padding: 1em;
+    margin-top: -5em;
+    flex-direction: column;
+    color: #fff;
+}
+
+.types {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.type {
+    padding: 0.2em;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5rem;
+    text-align: center;
+    filter: brightness(1.15);
+    background-color: #49D0B0;
+    align-self: center;
+    margin: .2em;
+}
+
+img {
+    align-self: center;
+    max-width: 400px;
+    align-items: center;
+}
+
+.caracts {
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.caracts h3 {
+    font-size: 1em;
+    margin: 1em 0;
+    padding: .5em;
+    color: #000;
+}
+
+.caracts .caraList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.caracts .caraChama {
+    list-style: none;
+    margin: unset;
+    padding: revert-layer;
+
+}
+
+.caracts .caraChama li {
+    margin: .3em;
+}
+
+.caracts .caraResp {
+    list-style: none;
+    margin: unset;
+    padding: revert-layer;
+
+}
+
+.caracts .caraResp li {
+    margin: .2em;
+    font-weight: 300;
+}
+
+.status {
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.status h3 {
+    font-size: 1em;
+    margin: 1em 0;
+    padding: .5em;
+    color: #000;
+}
+
+.status .statusList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.status .statChama {
+    list-style: none;
+    margin: unset;
+    padding: revert-layer;
+
+}
+
+.status .statChama li {
+    margin: .3em;
+}
+
+.status .statResp {
+    list-style: none;
+    margin: unset;
+    padding: revert-layer;
+
+}
+
+.status .statResp li {
+    margin: .2em;
+    font-weight: 300;
+}
+
+.status .statBarra {
+  width: 60%;
+  height: 5px;
+  background-color: #e0e0e0;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  list-style: none;
+  margin: 2%;
+  padding: revert-layer;
+}
+
+#HP {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 10%; 
+}
+
+#Attack {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+
+#Defensa {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+
+#Sp.Atk {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+
+#Sp.Def {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+
+#Speed {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+
+#Total {
+  height: 60%;
+  background-color: #4caf50; 
+  width: 0%; 
+}
+

@@ -69,10 +69,7 @@
     padding: .5rem .5rem;
     color: #fff;
     border-radius: 1rem;
-}
 
-.pokemon .a {
-    
 }
 
 .pokemon .pokemon-name {
@@ -135,7 +132,6 @@
     border-radius: 2rem;
     color: #fff;
     padding: 1rem;
-
 }
 
 @media screen and (min-width: 380px) {
